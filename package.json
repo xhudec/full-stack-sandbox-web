@@ -1,0 +1,36 @@
+{
+  "name": "full-stack-sandbox-web",
+  "description": "Full Stack Sandbox - Web Application build with Next.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xhudec/full-stack-sandbox-web.git"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "typescript",
+    "graphql",
+    "styled-components"
+  ],
+  "author": "Lukas Hudec <hudec.luke@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xhudec/full-stack-sandbox-web/issues"
+  },
+  "homepage": "https://github.com/xhudec/full-stack-sandbox-web#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.1.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  }
+}
