@@ -4,10 +4,12 @@ import { render, RenderResult } from '@testing-library/react'
 import ContextController, { IContextControllerProps } from '..'
 import createApolloClient from '../../../modules/graphql/create-apollo-client'
 
+import theme from '@theme'
+
 function renderContextController(
   propOverrides: IContextControllerProps = {
+    theme,
     apolloClient: createApolloClient({ initialState: {} }),
-    theme: {},
     children: <div>test</div>,
   }
 ): RenderResult {
