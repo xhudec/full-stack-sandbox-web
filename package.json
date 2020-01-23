@@ -85,7 +85,7 @@
     "husky": "^4.0.7",
     "identity-obj-proxy": "^3.0.0",
     "is-ci-cli": "^2.0.0",
-    "jest": "^24.9.0",
+    "jest": "^25.1.0",
     "jest-watch-select-projects": "^1.0.0",
     "jest-watch-typeahead": "^0.4.2",
     "npm-check": "^5.9.0",
@@ -93,7 +93,7 @@
     "pretty-quick": "^2.0.1",
     "stylelint": "^13.0.0",
     "stylelint-config-prettier": "^8.0.1",
-    "ts-jest": "^24.3.0",
+    "ts-jest": "^25.0.0",
     "typescript": "^3.7.4"
   }
 }
