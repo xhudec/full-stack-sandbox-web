@@ -26,7 +26,7 @@ const HomePage: NextPage = () => {
       </Head>
 
       <div>
-        <h1>Welcome to Next.js!</h1>
+        <h1>Welcome to React Sandbox</h1>
       </div>
 
       <Button onClick={() => alert('clicked')}>Click me!</Button>
