@@ -9,14 +9,14 @@ export default function createApolloClient(
 ): ApolloClient<NormalizedCacheObject> {
   const isBrowserEnv = isBrowser()
 
-  // ! FIXME: resolve TS issues
   return new ApolloClient({
     connectToDevTools: isBrowserEnv,
     ssrMode: !isBrowserEnv,
     link: new HttpLink({
       uri: process.env.GRAPHQL_SERVER_URL,
       credentials: 'same-origin',
-      fetch: !isBrowserEnv && (fetch as any),
+      // eslint-disable-next-line no-undefined
+      fetch: !isBrowserEnv ? fetch : undefined,
     }),
     cache: new InMemoryCache().restore(initialState || {}),
   })
