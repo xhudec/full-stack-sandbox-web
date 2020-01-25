@@ -1,0 +1,17 @@
+pull_request_rules:
+  - name: 'Automatically merge my PRs when CI/CD passes ✅'
+    conditions:
+      - author=xhudec
+      - status-success=static-tests
+      - status-success=app-tests
+    actions:
+      merge:
+        method: squash
+  - name: 'Automatically merge PRs when approved 👀 and CI/CD passes ✅'
+    conditions:
+      - '#approved-reviews-by>=1'
+      - status-success=static-tests
+      - status-success=app-tests
+    actions:
+      merge:
+        method: squash
