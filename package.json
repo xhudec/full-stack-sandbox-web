@@ -60,7 +60,7 @@
     "@storybook/addon-actions": "^5.3.9",
     "@storybook/addon-info": "^5.3.2",
     "@storybook/addon-links": "^5.3.9",
-    "@storybook/react": "^5.3.2",
+    "@storybook/react": "^5.3.9",
     "@strv/commitlint-config": "^1.1.0",
     "@strv/eslint-config-node": "^2.1.2",
     "@strv/eslint-config-react": "^3.0.3",
