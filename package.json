@@ -63,7 +63,7 @@
     "@storybook/react": "^5.3.12",
     "@strv/commitlint-config": "^1.1.0",
     "@strv/eslint-config-node": "^2.2.0",
-    "@strv/eslint-config-react": "^3.0.3",
+    "@strv/eslint-config-react": "^3.1.1",
     "@strv/eslint-config-typescript": "^2.1.5",
     "@strv/prettier-config": "^1.0.3",
     "@strv/stylelint-config-styled-components": "^1.1.1",
