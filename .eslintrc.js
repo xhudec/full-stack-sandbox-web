@@ -35,11 +35,14 @@ module.exports = {
     'import/order': 'off',
     'import/group-exports': 'off',
     '@typescript-eslint/member-ordering': 'off',
+    'consistent-return': 'off',
 
     // prettier is responsible for all code formatting
     'comma-dangle': 'off',
     'function-paren-newline': 'off',
     'no-extra-parens': 'off',
+    indent: 'off',
+    '@typescript-eslint/indent': 'off',
 
     // typescript...
     'react/prop-types': 'off',
