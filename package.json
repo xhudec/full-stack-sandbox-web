@@ -74,7 +74,7 @@
     "@types/react": "^16.9.27",
     "@types/styled-components": "^5.0.1",
     "@types/testing-library__jest-dom": "^5.0.2",
-    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
     "@typescript-eslint/parser": "^2.25.0",
     "@zeit/next-typescript": "^1.1.1",
     "awesome-typescript-loader": "^5.2.1",
