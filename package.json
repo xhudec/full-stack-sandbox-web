@@ -86,7 +86,7 @@
     "husky": "^4.2.5",
     "identity-obj-proxy": "^3.0.0",
     "is-ci-cli": "^2.0.0",
-    "jest": "^25.3.0",
+    "jest": "^25.4.0",
     "jest-watch-select-projects": "^2.0.0",
     "jest-watch-typeahead": "^0.4.2",
     "npm-check": "^5.9.2",
