@@ -1,12 +1,12 @@
-import React from 'react'
+import { getDataFromTree } from '@apollo/react-ssr'
+import { ApolloClient, NormalizedCacheObject } from 'apollo-boost'
 import NextApp, { AppProps, AppContext, AppInitialProps } from 'next/app'
 import Head from 'next/head'
-import { ApolloClient, NormalizedCacheObject } from 'apollo-boost'
-import { getDataFromTree } from '@apollo/react-ssr'
-
-import initializeApollo from './initialize-apollo'
+import React from 'react'
 
 import isBrowser from '@utils/is-browser'
+
+import initializeApollo from './initialize-apollo'
 
 interface IWithApolloProps extends AppProps {
   apolloClient: ApolloClient<NormalizedCacheObject>

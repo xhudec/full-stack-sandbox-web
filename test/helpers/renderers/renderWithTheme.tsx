@@ -1,6 +1,6 @@
+import { render, RenderResult } from '@testing-library/react'
 import React from 'react'
 import { ThemeProvider } from 'styled-components'
-import { render, RenderResult } from '@testing-library/react'
 import defaultTheme, { ITheme } from '@theme'
 
 export default function renderWithTheme(

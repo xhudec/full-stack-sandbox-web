@@ -1,8 +1,8 @@
-import React from 'react'
-import { NextPage } from 'next'
-import Head from 'next/head'
 import { useQuery } from '@apollo/react-hooks'
 import gql from 'graphql-tag'
+import { NextPage } from 'next'
+import Head from 'next/head'
+import React from 'react'
 
 import Button from '@components/button'
 

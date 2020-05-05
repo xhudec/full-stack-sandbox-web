@@ -29,12 +29,24 @@ module.exports = {
     'jest/globals': true,
   },
   rules: {
+    'import/order': [
+      'error',
+      {
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
+      },
+    ],
+
     // conflicts with personal preference or guidelines
     'padding-line-between-statements': 'off',
     'arrow-body-style': 'off',
-    'import/order': 'off',
     'import/group-exports': 'off',
     '@typescript-eslint/member-ordering': 'off',
+    '@typescript-eslint/naming-convention': 'off',
+    '@typescript-eslint/prefer-readonly-parameter-types': 'off',
     'consistent-return': 'off',
 
     // prettier is responsible for all code formatting

@@ -1,6 +1,6 @@
-import React from 'react'
-import App, { AppProps } from 'next/app'
 import { ApolloClient, NormalizedCacheObject } from 'apollo-boost'
+import App, { AppProps } from 'next/app'
+import React from 'react'
 
 import ContextController from '@components/context-controller'
 

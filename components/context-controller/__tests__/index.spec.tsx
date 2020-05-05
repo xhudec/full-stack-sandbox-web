@@ -1,10 +1,10 @@
-import React from 'react'
 import { render, RenderResult } from '@testing-library/react'
+import React from 'react'
+
+import theme from '@theme'
 
 import ContextController, { IContextControllerProps } from '..'
 import createApolloClient from '../../../modules/graphql/create-apollo-client'
-
-import theme from '@theme'
 
 function renderContextController(
   propOverrides: IContextControllerProps = {

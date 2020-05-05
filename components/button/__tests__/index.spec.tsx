@@ -1,13 +1,14 @@
-import React from 'react'
 import { RenderResult, fireEvent } from '@testing-library/react'
+import React from 'react'
+
+import renderWithTheme from '@test/helpers/renderers/renderWithTheme'
 
 import Button, { IButtonProps } from '..'
-import renderWithTheme from '@test/helpers/renderers/renderWithTheme'
 
 function renderButton(propOverrides: Partial<IButtonProps>): RenderResult {
   const testUtils = renderWithTheme(
     <Button onClick={() => {}} {...propOverrides}>
-      {propOverrides.children || ''}
+      {propOverrides.children ?? ''}
     </Button>
   )
 

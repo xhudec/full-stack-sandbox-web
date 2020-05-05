@@ -1,6 +1,6 @@
-import React from 'react'
-import { ApolloClient, NormalizedCacheObject } from 'apollo-boost'
 import { ApolloProvider } from '@apollo/react-hooks'
+import { ApolloClient, NormalizedCacheObject } from 'apollo-boost'
+import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
 import { ITheme } from '@theme'

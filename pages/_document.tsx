@@ -1,5 +1,5 @@
-import React from 'react'
 import NextDocument, { DocumentContext } from 'next/document'
+import React from 'react'
 import { ServerStyleSheet } from 'styled-components'
 
 export default class MyDocument extends NextDocument {
