@@ -59,7 +59,7 @@
     "@commitlint/cli": "^8.3.4",
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-info": "^5.3.19",
-    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addon-links": "^5.3.19",
     "@storybook/react": "^5.3.19",
     "@strv/commitlint-config": "^1.1.0",
     "@strv/eslint-config-node": "^2.2.2",
