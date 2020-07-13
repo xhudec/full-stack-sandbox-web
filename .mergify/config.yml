@@ -5,14 +5,16 @@ pull_request_rules:
       - status-success=static-tests
       - status-success=app-tests
       - label!=Work in progress ⚠️
+      - base=master
     actions:
       merge:
         method: squash
-  - name: 'Merge PRs when approved 👀 and CI/CD passes ✅'
+  - name: 'Merge pull requests from dependabot if CI passes ✅'
     conditions:
-      - '#approved-reviews-by>=1'
+      - author~=^dependabot(|-preview)\[bot\]$
       - status-success=static-tests
       - status-success=app-tests
+      - base=master
     actions:
       merge:
         method: squash
